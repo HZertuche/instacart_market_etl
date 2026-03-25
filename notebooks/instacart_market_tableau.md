@@ -4,7 +4,7 @@ This dashboard was built in Tableau to analyze customer purchasing behavior, inc
 
 ## Full Dashboard
 
-![Main Dashboard](../screenshots/main_dashboard.PNG)
+![Main Dashboard](../screenshots/main_dashboard.png)
 
 ## Dashboard Objective
 
@@ -110,12 +110,12 @@ Key analytical components included in the dashboard:
 
 | KPI Cards | Product by Department |
 |-----------|----------------------|
-| ![KPI Cards](../screenshots/kpicards.PNG) | ![Top Product](../screenshots/top_product.PNG) |
+| ![KPI Cards](../screenshots/kpicards.PNG) | ![Top Product](../screenshots/top_product.png) |
 
 | Top Departments | Top Aisles |
 |----------------|------------|
-| ![Top Departments](../screenshots/top5_departments.PNG) | ![Top Aisles](../screenshots/top5_aisles.PNG) |
+| ![Top Departments](../screenshots/top5_departments.png) | ![Top Aisles](../screenshots/top5_aisles.png) |
 
 | Orders by Day | Orders by Hour |
 |---------------|---------------|
-| ![Orders by Day](../screenshots/orders_day.PNG) | ![Orders by Hour](../screenshots/order_hour.PNG) |
+| ![Orders by Day](../screenshots/orders_day.png) | ![Orders by Hour](../screenshots/order_hour.png) |
