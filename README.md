@@ -128,7 +128,7 @@ Steps performed in the project:
 2. Join the datasets to create a unified dataset.
 3. Use key fields (*product_id*, *order_id*, *aisle_id*, and *department_id*) to establish relationships between datasets.
 
-# Data Quality Validation
+## Data Quality Validation
 During the transformation stage, several validation checks were applied:
 - Ensured no critical fields contain null values. 
 - Validation of data types format for selected fields.
@@ -159,7 +159,7 @@ The analysis of customer purchasing patterns can support better business decisio
 
 ## Dashboard
 
-![Main Dashboard](../screenshots/main_dashboard.png)
+![Main Dashboard](screenshots/main_dashboard.png)
 
 ## Key Insights
 
@@ -173,12 +173,12 @@ The analysis of customer purchasing patterns can support better business decisio
 ## Key Visualizations
 | KPI Cards | Product by Department |
 |-----------|----------------------|
-| ![KPI Cards](../screenshots/kpicards.png) | ![Top Product](../screenshots/top_product.png) |
+| ![KPI Cards](screenshots/kpicards.png) | ![Top Product](screenshots/top_product.png) |
 
 | Top Departments | Top Aisles |
 |----------------|------------|
-| ![Top Departments](../screenshots/top5_departments.png) | ![Top Aisles](../screenshots/top5_aisles.png) |
+| ![Top Departments](screenshots/top5_departments.png) | ![Top Aisles](screenshots/top5_aisles.png) |
 
 | Orders by Day | Orders by Hour |
 |---------------|---------------|
-| ![Orders by Day](../screenshots/orders_day.png) | ![Orders by Hour](../screenshots/order_hour.png) |
+| ![Orders by Day](screenshots/orders_day.png) | ![Orders by Hour](screenshots/order_hour.png) |
