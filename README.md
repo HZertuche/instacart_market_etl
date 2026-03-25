@@ -173,7 +173,7 @@ The analysis of customer purchasing patterns can support better business decisio
 ## Key Visualizations
 | KPI Cards | Product by Department |
 |-----------|----------------------|
-| ![KPI Cards](screenshots/kpicards.png) | ![Top Product](screenshots/top_product.png) |
+| ![KPI Cards](screenshots/kpicards.PNG) | ![Top Product](screenshots/top_product.png) |
 
 | Top Departments | Top Aisles |
 |----------------|------------|
