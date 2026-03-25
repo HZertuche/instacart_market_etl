@@ -1,6 +1,6 @@
 # Instacart Market Dashboard
 
-This dashboard was built using Tableau to analyze consumers purchasing actions, including products, departments, datetime and typical shopping characteristics.
+This dashboard was built in Tableau to analyze customer purchasing behavior, including product trends, department performance, shopping time patterns, and basket characteristics.
 
 ## Full Dashboard
 
@@ -8,7 +8,7 @@ This dashboard was built using Tableau to analyze consumers purchasing actions, 
 
 ## Dashboard Objective
 
-- The goal of this dashboard is to analyze consumer purchasing behavior, identifying the most attractive products, departments, and typical shopping characteristics.
+- The goal of this dashboard is to analyze consumer purchasing behavior, identifying the most frequently ordered products, top-performing departments, and common shopping patterns.
 
 ## Business Questions
 
@@ -23,14 +23,16 @@ This dashboard aims to answer the following business questions:
 
 ## Dataset
 
-The dataset contains information about customer orders and products. Key features include:
+The dataset contains information about customer orders and products. 
+
+Key features include:
 
 - *order_id* – Unique order ID
 - *user_id* – Unique user ID
 - *eval_set* - Indicates the dataset split the order belongs to (prior or train)
 - *order_number* - Sequential order number for each user
 - *order_dow* - Day of the week when the order was placed (0 = Sunday, 6 = Saturday)
-- *order_hour_of_day* - Hour of the day where the order was placed
+- *order_hour_of_day* - Hour of the day when the order was placed
 - *days_since_prior_order* - Number of days since the user's previous order
 - *product_name* – Product Name 
 - *product_id* - Unique product ID
@@ -43,13 +45,15 @@ The dataset contains information about customer orders and products. Key feature
 
 ## Tech Stack
 
-- Python 
-- Amazon S3 - Data Storage
-- Pandas / NumPy – Data manipulation
-- AWS Glue – Data cleaning and preprocessing    
-- Amazon Athena / DuckDB - SQL Analytics
-- Matplotlib / Seaborn – Exploratory Data Analysis (EDA)
-- Tableau - Data visualization and dashboard
+- **Python** – Data processing and pipeline scripting
+- **Amazon S3** – Scalable cloud data storage
+- **AWS Glue** – ETL data transformation
+- **Amazon Athena** – Serverless SQL query engine
+- **DuckDB** – Local analytical SQL engine
+- **Pandas / NumPy** – Data manipulation
+- **Matplotlib / Seaborn** – Exploratory data analysis (EDA)
+- **Tableau** – Data visualization and dashboarding
+- **Parquet** – Columnar storage format optimized for analytics
 
 ## Project Architecture
 
@@ -62,10 +66,10 @@ Raw CSV → Data Cleaning → Feature Engineering → Parquet Storage → SQL An
 - *weekday* - Day of the week
 - *users* - Total unique users
 - *orders* - Total unique orders
-- *total_products* - Total Products
-- *ranking* - Ranks a calculated field
-- *avg_product_by_order* - Average products by order
-- *avg_orders_by_user* - Average orders by unique user
+- *total_products* - Total ordered products
+- *ranking* - Ranking field used for top-N visualizations
+- *avg_product_by_order* - Average number of products per order
+- *avg_orders_by_user* - Average number of orders per user
 
 ## Visualizations
 
@@ -75,8 +79,8 @@ The dashboard includes the following visualizations:
 - Top Product by Department showing the best-selling product within each department.
 - Top 5 Departments ranked by total products sold.
 - Top 5 Aisles ranked by total products sold.
-- Orders by Day showing purchasing behavior across the week
-- Orders by Hour highlighting peak shopping hours during the day.
+- Orders by Day, showing purchasing behavior across the week
+- Orders by Hour, highlighting peak shopping hours during the day.
 
 ## Filters
 
@@ -86,8 +90,8 @@ The dashboard includes the following visualizations:
 
 ## Key Insights
 
-- Customers purchases an average of 10 products per order, indicating relatively large basket sizes.
-- Bananas and Organic Whole Milk are the best-selling products across the datset.
+- Customers purchase an average of 10 products per order, indicating relatively large basket sizes.
+- Bananas and Organic Whole Milk are the best-selling products across the dataset.
 - Among the top five departments, the *Produce* department dominates sales, representing 42% of total products sold.
 - The top three aisles are mainly related to fresh fruits and vegetables, highlighting strong demand for fresh products.
 - Sunday and Monday show the highest number of orders, suggesting that many users shop at the beginning of the week.
