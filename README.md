@@ -59,7 +59,7 @@ The goal of this project is to demonstrate core data engineering practices, incl
 
 This project uses the **Instacart Online Grocery Shopping Dataset 2017**, a public dataset commonly used for analytics and data engineering projects.
 
-- **Source:** [Kaggle - Instacart Market Basket Analysis](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis?select=orders.csv)
+- **Source:** [Kaggle - Instacart Market Basket Analysis](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis/data)
 - **Usage:** Educational and portfolio purposes only
 
 > **Note:** This dataset is a sample of historical Instacart orders and does not represent full production data.
@@ -223,8 +223,6 @@ ORDER BY total_orders DESC;
 
 
 ## Business Impact
-
-The analysis of customer purchasing patterns can support better business decisions in several areas:
 
 - **Operational planning:** Since most orders occur during daytime hours, grocery delivery services and warehouse operations can allocate more staff during these peak periods.
 - **Inventory optimization:** Produce dominates product sales, followed by Dairy & Eggs. Retailers should prioritize stock availability in these departments to avoid shortages.

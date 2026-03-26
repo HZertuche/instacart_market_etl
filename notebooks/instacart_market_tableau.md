@@ -61,7 +61,7 @@ Extract → Transform → Load
 
 Raw CSV → Data Cleaning → Feature Engineering → Parquet Storage → SQL Analytics → Visualization Dashboard
 
-## Metrics
+## Metrics & Features
 
 - *weekday* - Day of the week
 - *users* - Total unique users
@@ -88,15 +88,6 @@ The dashboard includes the following visualizations:
 - Top Product by Department: A ranking filter is used to show the best-selling product within each department.
 - Top Departments and Aisles: Filters are applied to display only the top five results based on the number of products sold.
 
-## Key Insights
-
-- Customers purchase an average of 10 products per order, indicating relatively large basket sizes.
-- Bananas and Organic Whole Milk are the best-selling products across the dataset.
-- Among the top five departments, the *Produce* department dominates sales, representing 42% of total products sold.
-- The top three aisles are mainly related to fresh fruits and vegetables, highlighting strong demand for fresh products.
-- Sunday and Monday show the highest number of orders, suggesting that many users shop at the beginning of the week.
-- The highest shopping activity occurs during daytime hours, between 9:00 AM and 4:59 PM.
-
 ## Dashboard Highlights
 
 Key analytical components included in the dashboard:
@@ -119,3 +110,12 @@ Key analytical components included in the dashboard:
 | Orders by Day | Orders by Hour |
 |---------------|---------------|
 | ![Orders by Day](../screenshots/orders_day.png) | ![Orders by Hour](../screenshots/order_hour.png) |
+
+## Key Insights
+
+- Customers purchase an average of 10 products per order, indicating relatively large basket sizes.
+- Bananas and Organic Whole Milk are the best-selling products across the dataset.
+- Among the top five departments, the *Produce* department dominates sales, representing 42% of total products sold.
+- The top three aisles are mainly related to fresh fruits and vegetables, highlighting strong demand for fresh products.
+- Sunday and Monday show the highest number of orders, suggesting that many users shop at the beginning of the week.
+- The highest shopping activity occurs during daytime hours, between 9:00 AM and 4:59 PM.
